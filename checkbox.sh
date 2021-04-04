@@ -38,7 +38,7 @@ readonly RED="\033[2K\033[31m"
 readonly GREEN="\033[2K\033[32m"
 
 readonly INTERFACE_SIZE=6
-readonly DEFAULT_OPTIONS=("Option 1" "Option 2" "Option 3" "Option 4" "Option 5" "Option 6" "Option 7" "Option 8" "Option 9" "Option 10" "Option 11" "Option 12" "Option 13" "Option 14" "Option 15" "Option 16" "Option 17" "Option 18" "Option 19" "Option 20" "Option 21" "Option 22" "Option 23" "Option 24" "Option 25" "Option 26" "Option 27" "Option 28" "Option 29" "Option 30")
+readonly DEFAULT_OPTIONS=("Apache" "HA Proxy" "Nginx" "Message")
 
 #===============================================================================
 # VARIABLES
@@ -49,9 +49,9 @@ terminal_width=0
 start_page=0
 end_page=0
 
-has_multiple_options=false
-will_return_index=false
-unselect_mode_on=false
+has_multiple_options=true
+will_return_index=true
+unselect_mode_on=true
 select_mode_on=false
 copy_in_message=false
 invalid_parameter=false
